@@ -1,0 +1,22 @@
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+textarea{
+	width: 1000%;
+	height: 150px;
+	font-size: 1em;
+	font-family: "Courier", monospace;
+}
+
+.main {
+
+	height: 99%; 
+	background-color: yellow;
+	background-image: linear-gradient(
+		to left, blue, yellow, green, yellow, red, yellow);
+	width: 90%;
+	margin: auto;
+	padding: 2em;
+	overflow: auto;
+}
